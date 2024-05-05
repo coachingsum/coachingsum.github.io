@@ -1,48 +1,31 @@
 body {
-  background-color: #ffc0cb;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 0;
 }
 
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
 }
 
 h1 {
   font-size: 2em;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
-.contact-list {
+nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.contact-list li {
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-}
-
-.dot {
+nav li {
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #f08080;
-  color: white;
-  text-align: center;
-  line-height: 40px;
-  font-size: 1.2em;
   margin-right: 20px;
-}
-
-.contact-list li span {
-  font-size: 1em;
 }
 
 a {
@@ -50,6 +33,29 @@ a {
   color: black;
 }
 
-a:hover {
-  color: #f08080;
+.call-to-action {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+main img {
+  width: 100%; /* Adjust width as needed */
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2em;
 }
